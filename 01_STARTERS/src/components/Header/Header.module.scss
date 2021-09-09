@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  padding: 20px 50px;
+  background-color: white;
+  border-bottom: 1px solid lightblue;
+  display: flex;
+  justify-content: space-between;
+  a {
+    text-decoration: none !important;
+  }
+  a.header__link__active {
+    color: cornflowerblue !important;
+    text-decoration: underline !important;
+  }
+}
